@@ -59,7 +59,7 @@ function maybe_hide_recent_topics() {
 }
 
 export function in_recent_topics_hash() {
-    return ["recent_topics"].includes(window.location.hash);
+    return ["#recent_topics"].includes(window.location.hash);
 }
 
 export function changehash(newhash) {
